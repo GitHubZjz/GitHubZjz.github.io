@@ -1,0 +1,68 @@
+# chirpy 主题覆盖配置
+# 这里的值会覆盖 themes/chirpy/_config.yml 里的默认值
+# 空字符串 "" 表示让模板回退到站点 _config.yml 的值
+
+# 1. 基本信息 —— 清空这些让站点配置生效
+title: ""
+subtitle: ""
+description: ""
+author: ""
+avatar: "/images/avatar.jpg"   # 头像
+favicon: "/favicon.ico"       # 网站图标
+language: ""
+timezone: ""
+url: ""
+
+# 2. 外观
+style_preset: "chirpy"
+color_scheme: "auto"
+accent_color: "#7952b3"
+
+# 3. 功能
+toc_enabled: true
+reading_progress: true
+code_copy: true
+
+pagination:
+  per_page: 10
+  prev_text: "上一页"
+  next_text: "下一页"
+
+# 4. 社交链接
+social:
+  github: ""
+  rss: "/atom.xml"
+  email: ""
+  qq: ""
+  wechat: ""
+
+# 5. 关于页
+about:
+  role: "软件工程师"
+  skills:
+    - "Java"
+    - "TypeScript"
+    - "Node.js"
+    - "Hexo"
+  description: "运气不是天降好运，是主动思考、持续行动，亲手创造的运气。这里记录编程技术、工程实践与认知思考。"
+
+# 6. 友链页
+links_apply_tip: |
+  欢迎交换友链！请按以下格式留言或申请：
+  - **站点名称**：我的博客
+  - **站点地址**：https://yourdomain.com
+  - **头像地址**：https://yourdomain.com/avatar.jpg
+  - **简介**：分享技术与生活
+
+friends: []
+
+# 7. 评论
+comments_enabled: false
+comments_provider: "waline"
+waline_server_url: ""
+giscus_repo: ""
+disqus_shortname: ""
+
+# 8. 自定义代码注入
+head_code: ""
+footer_code: ""
